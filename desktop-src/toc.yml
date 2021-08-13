@@ -1,0 +1,610 @@
+- name: "Desktop Win32 Apps"
+  href: /windows/win32/
+  items: 
+  - name: "Get Started"
+    items: 
+    - name: "Overview"
+      href: /windows/win32/desktop-programming
+    - name: "What's new"
+      href: /windows/win32/whats-new
+    - name: "Create your first C++ Win32 app"
+      href: /windows/win32/learnwin32/learn-to-program-for-windows
+    - name: "Create your first Windows app using DirectX"
+      href: /windows/win32/direct3dgetstarted/building-your-first-directx-app
+    - name: "Using the Windows Headers"
+      href: /windows/win32/winprog/using-the-windows-headers
+    - name: "Platform Guides"
+      items:
+      - name: "Programming Guide for 64-bit Windows"
+        href: /windows/win32/winprog64/programming-guide-for-64-bit-windows
+      - name: "Compatibility cookbook for Windows"
+        href: /windows/win32/w8cookbook/windows-8-and-windows-server-8-compatibility-cookbook-portal
+      - name: "Windows 7 guides"
+        href: /windows/win32/windows-7
+        items: 
+        - name: "Windows 7 and Windows Server 2008 R2 Application Quality Cookbook"
+          href: /windows/win32/win7appqual/windows-7-application-quality-cookbook
+        - name: "Windows 7 Developer Guide"
+          href: /windows/win32/win7devguide/windows-7-developer-guide
+        - name: "Platform Update for Windows Vista"
+          href: /windows/win32/win7ip/platform-update-for-windows-vista-portal
+  - name: "Design"
+    href: /windows/win32/uxguide/guidelines
+  - name: "Develop"
+    href: 
+    items: 
+    - name: "Desktop App Technologies"
+      items: 
+      - name: "Overview"
+        href: /windows/win32/desktop-app-technologies
+      - name: "Accessibility"
+        items: 
+        - name: "Overview"
+          href: /windows/win32/accessibility/accessibility
+        - name: "What's new in Windows accessibility and automation"
+          href: /windows/win32/accessibility/accessibility-whatsnew
+        - name: "Developing accessible Windows applications"
+          href: /windows/win32/accessibility/accessibility-appdev
+        - name: "Developing accessible UI frameworks"
+          href: accessibility/accessibility-uiframeworkdev.md
+        - name: "Developing assistive technology for Windows"
+          href: /windows/win32/accessibility/accessibility-atdev
+        - name: "Testing for accessibility"
+          href: /windows/win32/accessibility/accessibility-testwithuia
+        - name: "Legacy accessibility and automation technology"
+          href: /windows/win32/accessibility/accessibility-legacy
+        - name: "Accessibility and automation feature reference"
+          href: /windows/win32/accessibility/accessibility-reference-old
+      - name: "Desktop App User Interface"
+        items: 
+        - name: "Overview"
+          href: /windows/win32/windows-application-ui-development
+        - name: "Getting Started Developing User Interfaces for Windows Applications"
+          href: /windows/win32/appuistart/getting-started-developing-user-interfaces-portal
+        - name: "Internationalization for Windows Applications"
+          href: /windows/win32/intl/international-support
+        - name: "User Interaction"
+          items: 
+          - name: "Overview"
+            href: /windows/win32/user-interaction
+          - name: "Direct Manipulation"
+            href: /windows/win32/directmanipulation/direct-manipulation-portal
+          - name: "Ink input"
+            href: /windows/win32/input_ink/input-ink-portal
+          - name: "Input feedback configuration"
+            href: /windows/win32/input_feedback/input-feedback-configuration-portal
+          - name: "Input source identification"
+            href: /windows/win32/input_sourceid/input-source-identification-portal
+          - name: "Interaction context"
+            href: /windows/win32/input_intcontext/interaction-context-portal
+          - name: "Pointer device stack"
+            href: /windows/win32/input_pointerdevice/pointer-device-stack-portal
+          - name: "Pointer Input Messages and Notifications"
+            href: /windows/win32/inputmsg/messages-and-notifications-portal
+          - name: "Radial controller input"
+            href: /windows/win32/input_radial/radialcontroller-portal
+          - name: "Text Services Framework"
+            href: /windows/win32/tsf/text-services-framework
+          - name: "Touch input hit testing"
+            href: /windows/win32/input_touchhittest/touch-hit-testing-portal
+          - name: "Touch input injection"
+            href: /windows/win32/input_touchinjection/touch-injection-portal
+          - name: "Legacy User Interaction Features"
+            items: 
+            - name: "Overview"
+              href: /windows/win32/legacy-user-interaction-features
+            - name: "Touch Input"
+              href: /windows/win32/wintouch/windows-touch-portal
+            - name: "Keyboard and Mouse Input"
+              href: /windows/win32/inputdev/user-input
+            - name: "MultiPoint Mouse"
+              href: https://msdn.microsoft.com/library/windows/desktop/ff877472.aspx
+            - name: "Tablet PC"
+              href: /windows/win32/tablet/tablet-pc-development-guide
+        - name: "Windows and Messages"
+          href: /windows/win32/winmsg/windowing
+        - name: "Desktop Window Manager"
+          href: /windows/win32/dwm/dwm-overview
+        - name: "Dialog Boxes"
+          href: /windows/win32/dlgbox/dialog-boxes
+        - name: "Menus and Other Resources"
+          href: /windows/win32/menurc/resources
+        - name: "Data Exchange"
+          href: /windows/win32/dataxchg/data-exchange
+        - name: "High DPI"
+          href: /windows/win32/hidpi/high-dpi-desktop-application-development-on-windows
+        - name: "Windows Animation Manager"
+          href: /windows/win32/uianimation/-main-portal
+        - name: "Windows Controls"
+          href: /windows/win32/controls/window-controls
+        - name: "Windows Ribbon Framework"
+          href: /windows/win32/windowsribbon/-uiplat-windowsribbon-entry
+      - name: "Desktop Environment"
+        items: 
+        - name: "Overview"
+          href: /windows/win32/user-interface
+        - name: "The Windows Shell"
+          href: /windows/win32/shell/shell-entry
+        - name: "Windows Property System"
+          href: /windows/win32/properties/windows-properties-system
+        - name: "Windows Search"
+          href: /windows/win32/search/windows-search
+        - name: "Window Stations and Desktops"
+          href: /windows/win32/winstation/window-stations-and-desktops
+        - name: "Legacy Windows Environment Features"
+          href: /windows/win32/api/_lwef/
+      - name: "Application Installation and Servicing"
+        items: 
+        - name: "Overview"
+          href: /windows/win32/application-installing-and-servicing
+        - name: "Isolated Applications and Side-by-side Assemblies"
+          href: /windows/win32/sbscs/isolated-applications-and-side-by-side-assemblies-portal
+        - name: "Packaging, deployment, and query of UWP apps"
+          href: /windows/win32/appxpkg/appx-portal
+        - name: "Developer licensing"
+          href: /windows/win32/devlic/developer-licensing-portal
+        - name: "Restart Manager"
+          href: /windows/win32/rstmgr/restart-manager-portal
+        - name: "Windows Installer"
+          href: /windows/win32/msi/windows-installer-portal
+      - name: "Audio and Video"
+        items: 
+        - name: "Overview"
+          href: /windows/win32/audio-and-video
+        - name: "Core Audio APIs"
+          href: /windows/win32/coreaudio/core-audio-apis-in-windows-vista
+        - name: "DirectShow"
+          href: /windows/win32/directshow/directshow
+        - name: "Microsoft Media Foundation"
+          href: /windows/win32/medfound/microsoft-media-foundation-sdk
+        - name: "Windows Media Format 11 SDK"
+          href: /windows/win32/wmformat/windows-media-format-11-sdk
+        - name: "Windows Media Player SDK"
+          href: /windows/win32/wmp/windows-media-player-sdk
+        - name: "Media Streaming API"
+          href: /windows/win32/mediastreaming/media-streaming-api-portal
+        - name: "Windows Multimedia"
+          href: /windows/win32/multimedia/windows-multimedia-start-page
+      - name: "Data Access and Storage"
+        items: 
+        - name: "Overview"
+          href: /windows/win32/data-access-and-storage
+        - name: "Background Intelligent Transfer Service"
+          href: /windows/win32/bits/background-intelligent-transfer-service-portal
+        - name: "Backup"
+          href: /windows/win32/backup/backup
+        - name: "Cloud Sync Engines"
+          href: /windows/win32/cfapi/cloud-files-api-portal
+        - name: "Distributed File System"
+          href: /windows/win32/api/_dfs/
+        - name: "Extensible Storage Engine"
+          href: /windows/win32/extensible-storage-engine/extensible-storage-engine
+        - name: "Image Mastering API"
+          href: /windows/win32/imapi/portal
+        - name: "Imaging API"
+          href: https://msdn.microsoft.com/library/windows/desktop/dd851933.aspx
+        - name: "Local File Systems"
+          href: /windows/win32/fileio/file-systems
+        - name: "Projected File System"
+          href: /windows/win32/projfs/projected-file-system
+        - name: "Persistent Memory Programming"
+          href: /windows/win32/persistent-memory-programming-in-windows---nvml-integration
+        - name: "Virtual Storage"
+          href: https://docs.microsoft.com/windows/desktop/VStor/virtual-storage
+        - name: "Virtual Disk Service"
+          href: https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal
+        - name: "Volume Shadow Copy Service"
+          href: /windows/win32/vss/volume-shadow-copy-service-portal
+      - name: "Devices"
+        items: 
+        - name: "Overview"
+          href: /windows/win32/devices
+        - name: "Communications Resources"
+          href: /windows/win32/devio/communications-resources
+        - name: "Device access"
+          href: /windows/win32/deviceaccess/device-access-broker-api-portal
+        - name: "Location API"
+          href: /windows/win32/locationapi/windows-location-api-portal
+        - name: "Sensor API"
+          href: /windows/win32/sensorsapi/portal
+        - name: "UPnP APIs"
+          href: /windows/win32/upnp/universal-plug-and-play-start-page
+        - name: "Web Services on Devices"
+          href: wsdapi/wsd-portal.md
+        - name: "WIA"
+          href: /windows/win32/wsdapi/wsd-portal
+      - name: "Windows Media Device Manager 11 SDK"
+        href: /windows/win32/wmdm/windows-media-device-manager-11-sdk
+      - name: "Windows Portable Devices"
+        items: 
+        - name: "Overview"
+          href: windows-portable-devices.md
+        - name: "WPD Application Programming Interface"
+          href: /windows/win32/wpd_sdk/wpd-application-programming-interface
+      - name: "Diagnostics"
+        items: 
+        - name: "Overview"
+          href: /windows/win32/diagnostics
+        - name: "Debugging and Error Handling"
+          items: 
+          - name: "Overview"
+            href: /windows/win32/debugging-and-error-handling
+          - name: "Application Recovery and Restart"
+            href: /windows/win32/recovery/application-recovery-and-restart-portal
+          - name: "Error Handling"
+            href: /windows/win32/debug/error-handling
+        - name: "Network Diagnostics Framework"
+          href: /windows/win32/ndf/portal
+        - name: "Network Monitor"
+          href: /windows/win32/netmon2/network-monitor
+        - name: "Performance Counters"
+          href: /windows/win32/perfctrs/performance-counters-portal
+        # - name: "Process Snapshotting"
+        #   href: /windows/desktop/proc_snap/process-snapshotting-portal
+        - name: "Process Status API"
+          href: /windows/win32/psapi/process-status-helper
+        - name: "System Event Notification Service"
+          href: /windows/win32/sens/system-event-notification-service-portal
+        - name: "System Monitor"
+          href: /windows/win32/sysmon/system-monitor-portal
+        - name: "Tool Help Library"
+          href: /windows/win32/toolhelp/tool-help-library
+        - name: "Windows Error Reporting"
+          href: /windows/win32/wer/windows-error-reporting
+        - name: "Windows Events"
+          items: 
+          - name: "Overview"
+            href: /windows/win32/events/windows-events
+          - name: "TraceLogging"
+            href: /windows/win32/tracelogging/trace-logging-portal
+          - name: "Event Tracing"
+            href: /windows/win32/etw/event-tracing-portal
+          - name: "Event Logging"
+            href: /windows/win32/eventlog/event-logging
+          - name: "Windows Event Log"
+            href: /windows/win32/wes/windows-event-log
+          - name: "Windows Event Collector"
+            href: /windows/win32/wec/windows-event-collector
+      - name: "Documents and Printing"
+        href: /windows/win32/printdocs/documents-and-printing
+      - name: "Graphics and Gaming"
+        items: 
+        - name: "Overview"
+          href: /windows/win32/graphics-and-multimedia
+        - name: "DirectX graphics and gaming"
+          items: 
+          - name: "Overview"
+            href: /windows/win32/directx
+          - name: "Getting started with DirectX graphics"
+            href: /windows/win32/getting-started-with-directx-graphics
+          - name: "Programming DirectX with COM"
+            href: /windows/win32/prog-dx-with-com
+          - name: "Direct2D"
+            href: /windows/win32/direct2d/direct2d-portal
+          - name: "Direct3D"
+            items: 
+            - name: "Overview"
+              href: /windows/win32/direct3d
+            - name: "Getting started with Direct3D"
+              href: /windows/win32/getting-started-with-direct3d
+            - name: "Direct3D 12 Graphics"
+              href: /windows/win32/direct3d12/direct3d-12-graphics
+            - name: "Direct3D 11 Graphics"
+              href: /windows/win32/direct3d11/atoc-dx-graphics-direct3d-11
+            - name: "DXGI"
+              href: /windows/win32/direct3ddxgi/dx-graphics-dxgi
+            - name: "HLSL"
+              href: /windows/win32/direct3dhlsl/dx-graphics-hlsl
+            - name: "DDS"
+              href: /windows/win32/direct3ddds/dx-graphics-dds
+          - name: "DXCore"
+            href: /windows/win32/dxcore/dxcore
+          - name: "DirectWrite"
+            href: /windows/win32/directwrite/direct-write-portal
+          - name: "DirectXMath"
+            href: /windows/win32/dxmath/directxmath-portal
+          - name: "windowsnumerics.h APIs"
+            href: /windows/win32/numerics_h/windowsnumerics-h-apis-portal
+          - name: "Classic DirectX Graphics"
+            items: 
+            - name: "Overview"
+              href: /windows/win32/directx
+            - name: "Direct3D 10 Graphics"
+              href: /windows/win32/direct3d10/d3d10-graphics
+            - name: "Direct3D 9 Graphics"
+              href: /windows/win32/direct3d9/dx9-graphics-reference
+            - name: "DirectDraw"
+              href: /windows/win32/directdraw/directdraw
+            - name: "Technical Articles"
+              href: /windows/win32/dxtecharts/dx9-technical-articles
+            - name: "Where is the DirectX SDK?"
+              href: /windows/win32/directx-sdk--august-2009-
+          - name: "Tools for DirectX Graphics"
+            href: https://docs.microsoft.com/windows/desktop/direct3dtools/dx-graphics-tools
+          - name: "DirectX Graphics Articles"
+            href: /windows/win32/direct3darticles/directx-graphics-articles-portal
+          - name: "XAudio2 APIs"
+            href: /windows/win32/xaudio2/xaudio2-apis-portal
+          - name: "XInput Game Controller APIs"
+            href: /windows/win32/xinput/xinput-game-controller-apis-portal
+        - name: "DirectComposition"
+          href: /windows/win32/directcomp/directcomposition-portal
+        - name: "GDI+"
+          href: /windows/win32/gdiplus/-gdiplus-gdi-start
+        - name: "Windows GDI"
+          href: /windows/win32/gdi/windows-gdi
+        - name: "Monitor Configuration"
+          href: /windows/win32/monitor/monitor-configuration
+        - name: "OpenGL"
+          href: /windows/win32/opengl/opengl
+        - name: "Windows Imaging Component"
+          href: /windows/win32/wic/-wic-lh
+        - name: "Windows Mixed Reality"
+          href: /windows/win32/mixedreality/mixed-reality-portal
+      - name: "Networking and Internet"
+        items: 
+        - name: "Overview"
+          href: /windows/win32/networking
+        - name: "Delivery Optimization"
+          href: delivery_optimization/delivery-optimization-portal.md
+        - name: "Domain Name System"
+          href: dns/dns-start-page.md          
+        - name: "HTTP Server API"
+          href: /windows/win32/http/http-api-start-page
+        - name: "IP Helper"
+          href: /windows/win32/iphlp/ip-helper-start-page
+        - name: "Message Queuing"
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms711472(v=vs.85)
+        - name: "Network Interfaces"
+          href: /windows/win32/network-interfaces
+        - name: "Network List Manager"
+          href: /windows/win32/nla/portal
+        - name: "Network Management"
+          href: /windows/win32/netmgmt/network-management
+        - name: "Network Share Management"
+          href: /windows/win32/netshare/network-share-management
+        - name: "Peer-to-Peer"
+          href: /windows/win32/p2psdk/portal
+        - name: "Remote Procedure Call"
+          href: /windows/win32/rpc/rpc-start-page
+        - name: "Routing and Remote Access Service"
+          href: /windows/win32/rras/portal
+        - name: "Simple Network Management Protocol"
+          href: /windows/win32/snmp/snmp-start-page
+        - name: "Telephony Application Programming Interfaces"
+          href: Tapi/telephony-application-programming-interfaces.md
+        - name: "Teredo"
+          href: /windows/win32/teredo/portal
+        - name: "WebSocket Protocol Component API"
+          href: /windows/win32/websock/web-socket-protocol-component-api-portal
+        - name: "Windows Filtering Platform"
+          href: /windows/win32/fwp/windows-filtering-platform-start-page
+        - name: "Windows Networking"
+          href: /windows/win32/wnet/windows-networking-wnet-
+        - name: "Windows Sockets 2"
+          href: /windows/win32/winsock/windows-sockets-start-page-2
+        - name: "Wireless Networking"
+          items: 
+          - name: "Overview"
+            href: /windows/win32/wireless-networking
+          - name: "Bluetooth"
+            href: /windows/win32/bluetooth/bluetooth-start-page
+          - name: "Mobile Broadband"
+            href: mbn/mobile-broadband-networks-portal.md
+          - name: "Native Wifi"
+            href: /windows/win32/nativewifi/portal
+          - name: "Windows Connect Now"
+            href: /windows/win32/wcn/portal
+          - name: "Windows Connection Manager"
+            href: /windows/win32/wcm/windows-connection-manager-portal
+        - name: "WebDAV"
+          href: /windows/win32/webdav/webdav-portal
+        - name: "Windows HTTP Services"
+          href: /windows/win32/winhttp/winhttp-start-page
+        - name: "Windows Internet"
+          href: /windows/win32/wininet/portal
+        - name: "Windows Web Services"
+          href: /windows/win32/wsw/portal
+      - name: "Security and Identity"
+        items: 
+        - name: "Overview"
+          href: /windows/win32/security
+        - name: "Antimalware Scan Interface"
+          href: /windows/win32/amsi/antimalware-scan-interface-portal
+        - name: "Authentication"
+          href: /windows/win32/secauthn/authentication-portal
+        - name: "Authorization"
+          href: /windows/win32/secauthz/authorization-portal
+        - name: "Best Practices for the Security APIs"
+          href: /windows/win32/secbp/best-practices-for-the-security-apis
+        - name: "Certificate Enrollment API"
+          href: /windows/win32/seccertenroll/certenroll-portal
+        - name: "Cryptography"
+          href: /windows/win32/seccrypto/cryptography-portal
+        - name: "Cryptography API: Next Generation"
+          href: /windows/win32/seccng/cng-portal
+        - name: "Directory, Identity, and Access Services"
+          href: 
+          items: 
+          - name: "Directory Services"
+            href: 
+            items: 
+            - name: Directories
+              href: 
+              items: 
+              - name: "Active Directory Domain Services"
+                href: /windows/win32/ad/active-directory-domain-services
+              - name: "Active Directory Schema"
+                href: /windows/win32/adschema/active-directory-schema
+            - name: "Directory Access Technologies"
+              href: 
+              items: 
+              - name: "Active Directory Service Interfaces"
+                href: /windows/win32/adsi/active-directory-service-interfaces-adsi
+          - name: "Access Management Services"
+            href: 
+            items: 
+            - name: "Active Directory Federation Services"
+              items: 
+              - name: "Overview"
+                href: SrvNodes/active-directory-federation-services.md
+              - name: "Active Directory Federation Services Overview"
+                href: https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms674895(v=vs.85)
+        - name: "Extensible Authentication Protocol"
+          href: /windows/win32/eap/eap-start-page
+        - name: "Extensible Authentication Protocol Host"
+          href: /windows/win32/eaphost/portal
+        - name: "Network Access Protection"
+          href: /windows/win32/nap/network-access-protection-start-page
+        - name: "Network Policy Server"
+          href: /windows/win32/nps/portal
+        - name: "Parental Controls"
+          href: /windows/win32/parcon/parental-controls-portal
+        - name: "Rights Management"
+          items: 
+          - name: "Overview"
+            href: SrvNodes/rights-management.md
+          - name: "RMS Scenarios, Code and Tools"
+            href: SrvNodes/rms-code-samples-and-tools.md
+        - name: "Security Management"
+          href: /windows/win32/secmgmt/management-portal
+        - name: "Security Glossary"
+          href: /windows/win32/secgloss/security-glossary
+        - name: "TPM Base Services"
+          href: /windows/win32/tbs/tpm-base-services-portal
+        - name: "Windows Biometric Framework"
+          href: /windows/win32/secbiomet/biometric-service-api-portal
+      - name: "System Services"
+        items: 
+        - name: "Overview"
+          href: /windows/win32/system-services
+        - name: "Component Object Model"
+          href: /windows/win32/com/component-object-model--com--portal
+        - name: "Microsoft Interface Definition Language"
+          href: /windows/win32/midl/midl-start-page
+        - name: "Structured Storage"
+          href: /windows/win32/stg/structured-storage-start-page
+        - name: "COM+"
+          href: /windows/win32/cossdk/component-services-portal
+        - name: "Compression API"
+          href: /windows/win32/cmpapi/-compression-portal
+        - name: "Dynamic-Link Libraries"
+          href: /windows/win32/dlls/dynamic-link-libraries
+        - name: "Interprocess Communications"
+          href: /windows/win32/ipc/interprocess-communications
+        - name: "Kernel Transaction Manager"
+          href: /windows/win32/ktm/kernel-transaction-manager-portal
+        - name: "Memory Management"
+          href: /windows/win32/memory/memory-management
+        - name: "Power Management"
+          href: /windows/win32/power/power-management-portal
+        - name: "Processes and Threads"
+          href: /windows/win32/procthread/processes-and-threads
+        - name: "Remote Desktop Services"
+          href: /windows/win32/termserv/terminal-services-portal
+        - name: "Services"
+          href: /windows/win32/services/services
+        - name: "Setup API"
+          href: /windows/win32/setupapi/setup-api-portal
+        - name: "Synchronization"
+          href: /windows/win32/sync/synchronization
+        - name: "Windows System Information"
+          href: /windows/win32/sysinfo/windows-system-information
+      - name: "Windows Machine Learning"
+        href: /windows/win32/machinelearning/machine-learning-portal
+      - name: "Developer Notes"
+        href: /windows/win32/devnotes/developer-notes
+    - name: "Develop with Server Technologies"
+      items: 
+      - name: "Overview"
+        href: /windows/win32/server-and-system-technologies
+      - name: "Directory, Identity, and Access Services"
+        href: SrvNodes/directory--identity--and-access-services.md
+        items: 
+        - name: "Directory Services"
+          href: SrvNodes/directory-services.md
+          items: 
+          - name: "Directories"
+            href: SrvNodes/directories.md
+          - name: "Directory Access Technologies"
+            href: SrvNodes/directory-access-technologies.md
+        - name: "Identity Services"
+          href: SrvNodes/identity-services.md
+          items: 
+          - name: "Identity Lifecycle Manager 2007"
+            href: SrvNodes/identity-lifecycle-manager-2007.md
+        - name: "Access Management Services"
+          href: SrvNodes/access-management-services.md
+          items: 
+          - name: "Active Directory Federation Services"
+            href: /windows/win32/srvnodes/active-directory-federation-services
+      - name: "Rights Management"
+        href: /windows/win32/srvnodes/rights-management
+        items: 
+        - name: "RMS Code Samples and Tools"
+          href: SrvNodes/rms-code-samples-and-tools.md
+      - name: "System Administration"
+        href: SrvNodes/system-administration.md
+        items: 
+        - name: "Group Policy"
+          items: 
+          - name: "Overview"
+            href: SrvNodes/group-policy.md
+          - name: "GPMC Class Library Reference"
+            href: https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/class-library/gpmc-class-library-reference
+        - name: "Microsoft Management Console (MMC)"
+          href: SrvNodes/microsoft-management-console--mmc-.md
+          items: 
+          - name: "Microsoft Management Console 3.0"
+            href: SrvNodes/microsoft-management-console-3-0.md
+        - name: "Windows Server Update Services"
+          href: SrvNodes/windows-server-update-services.md
+          items: 
+          - name: "Windows Server Update Services 2.0 Class Library"
+            href: SrvNodes/windows-server-update-services-2-0-class-library.md
+      - name: "Virtualization"
+        href: SrvNodes/virtualization.md
+      - name: "WMI/MI/OMI Providers"
+        href: SrvNodes/wmi-mi-omi-providers.md
+      - name: "Windows Server"
+        href: SrvNodes/windows-server.md
+        items: 
+        - name: "What's New For Windows Server 2012 R2 and Windows Server 2012"
+          href: SrvNodes/what-s-new-for-windows-server-2012-r2.md
+        - name: "Mobile Device Management Registration"
+          href: /windows/win32/mdmreg/mobile-device-management-registration-portal
+        - name: "System Restore"
+          href: /windows/win32/sr/system-restore-portal
+        - name: "System Shutdown"
+          href: /windows/win32/shutdown/system-shutdown
+        - name: "Task Scheduler"
+          href: /windows/win32/taskschd/task-scheduler-start-page
+        - name: "Windows Deployment Services"
+          href: /windows/win32/wds/windows-deployment-services-portal
+        - name: "Windows Management Instrumentation"
+          href: /windows/win32/wmisdk/wmi-start-page
+        - name: "Windows Management Infrastructure Managed API"
+          href: https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/mi-managed-api/mt738833(v=vs.85)
+        - name: "WMI Providers"
+          href: 
+          items: 
+          - name: "Boot Event Collector WMI Provider"
+            href: /windows/win32/bevtcolprov/boot-event-collector-wmi-provider-portal
+          - name: "Hyper-V management"
+            href: /windows/win32/hyperv_v2/hyper-v-management
+          - name: "MDM Bridge WMI Provider"
+            href: /windows/win32/dmwmibridgeprov/mdm-bridge-wmi-provider-portal
+          - name: "Windows System Assessment Tool"
+            href: /windows/win32/winsat/windows-system-assessment-tool-portal
+          - name: "WMI Core Provider"
+            href: /windows/win32/wmicoreprov/wmi-core-provider-
+        - name: "Windows Remote Management"
+          href: /windows/win32/winrm/portal
+        - name: "Windows Resource Protection"
+          href: /windows/win32/wfp/windows-resource-protection-portal
+    - name: "API Index"
+      href: /windows/win32/apiindex/api-index-portal
+    - name: "Windows Runtime C++ reference"
+      href: /windows/win32/winrt/reference
+    - name: "Windows Certification"
+      href: /windows/win32/win_cert/windows-certification-portal
